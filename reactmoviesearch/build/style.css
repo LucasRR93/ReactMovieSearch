@@ -1,0 +1,96 @@
+html {
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to left bottom, #181818, #30383B);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+    min-height: 100vh;
+}
+
+body {
+    font-family: 'Open Sans', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 4.4rem;
+    color: whitesmoke;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+small {
+    font-size: 1.2rem;
+}
+
+.container {
+    padding: 40px;
+}
+
+.cards-filmes {
+    border-radius: 10px;
+    color: whitesmoke;
+    background: #2c2e2f;
+}
+
+.img-card {
+    background-color: #3E4042;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.img-erro {
+    width: 100%;
+    padding-top: 150%;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #3E4042;
+    background-image: url(img/glyphicons-basic-38-picture-grey.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50% 50%;
+}
+
+.titulo-card {
+    font-size: 1.7rem;
+}
+
+.form {
+    background: #3e3d40;
+    font-size: 1.3rem;
+}
+
+.form-control {
+    font-size: 1.5rem;
+    height: 4rem;
+}
+
+.input {
+    border: none;
+    background: #3e3d40;
+    color: #939393
+}
+
+.form-control:focus {
+    background: #3e3d40;
+    color: #fff;
+}
+
+.button {
+    background: #3F42F6;
+    color: #fff;
+}
